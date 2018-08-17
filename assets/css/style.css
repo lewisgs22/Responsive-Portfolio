@@ -1,0 +1,267 @@
+body {
+    margin: 0 0 0 0;
+}
+
+p {
+    background-color: white;
+    padding-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 18px;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0px;
+    color: #777777;
+}
+
+h1 {
+    background-color: #4aaaa5;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 0px;
+    margin-left: 180px;
+    margin-top: 0px;
+    padding-top: 25px;
+}
+
+h2 {
+    background-color: white;
+    color: #4aaaa5;
+    padding-left: 27px;
+    padding-top: 30px;
+    font-size: 30px;
+    height: 40px;
+}
+
+.nav {
+    background-color: white;
+    margin-right: 300px;
+    width: 300px;
+    margin-bottom: 0px;
+}
+
+.container {
+    display: flex;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-bottom-style: solid;
+    border-color: #cccccc;
+    border-width: 1px;
+}
+
+ul {
+    list-style-type: none;
+    padding-top: 40px;
+    
+}
+
+li {
+    display: inline;
+    padding-right: 20px;
+    border-right-style: solid;
+    border-color: #cccccc; 
+    border-width: 1px;
+    padding-left: 12px;
+}
+
+
+li:last-child {
+    border-right: none;
+}
+
+a:link {
+    color: #cccccc;
+    text-decoration: none;
+}
+
+
+a:visited {
+    color: #cccccc;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4aaaa5;
+    text-decoration: none;
+
+}
+
+.aboutpage {
+    background-color: white;
+    width: 960px;
+    height: 500px;
+    margin-left: 180px;
+    margin-bottom: 100px;
+    margin-top: 70px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+}
+
+.img1 {
+    padding-left: 15px;
+    width: 250px;
+    height: 250px;
+    margin-top: 40px;
+    float: left;
+}
+
+footer {
+    background-color: #666666;
+    width: 100%;
+    height: 50px;
+    border-top-style: solid;
+    border-width: 5px;
+    border-color: #4aaaa5;
+    margin-bottom: 0px;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cccccc;
+    width: 900px;
+}
+
+.contactmain {
+    background-color: white;
+    width: 960px;
+    height: 600px;
+    margin-left: 180px;
+    margin-bottom: 100px;
+    margin-top: 70px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+}
+
+.text1 {
+    margin-top: 30px;
+    margin-left: 30px;
+    color: #777777;
+    font-size: 15px;
+}
+
+.text2 {
+    margin-top: 30px;
+    margin-left: 30px;
+    color: #777777;
+    font-size: 15px;
+}
+
+.text3 {
+    margin-top: 30px;
+    margin-left: 30px;
+    color: #777777;
+    font-size: 15px;
+}
+
+.button {
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    border: none;
+    font-size: 18px;
+}
+
+.button:hover {
+    background-color: white;
+    color: #4aaaa5;
+    border-color: #4aaaa5;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.input1 {
+    font-size: 15px; 
+    width: 900px;  
+}
+
+.input2 {
+    font-size: 15px;
+    width: 900px;
+}
+
+.input3 {
+    font-size: 15px;
+    height: 200px;
+    width: 900px;
+    color: #777777;
+    border-color: #dddddd
+}
+
+.portfoliomain {
+    background-color: white;
+    width: 960px;
+    height: 600px;
+    margin-left: 180px;
+    margin-bottom: 100px;
+    margin-top: 70px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+}
+
+.img2 {
+    width: 200px;
+    height: 200px;
+}
+
+.img2:hover {
+    opacity: 0.3;
+}
+
+.container1 {
+    position: relative;
+}
+
+.textblock {
+    position: absolute;
+    width: 200px;
+    font-size: 15px;
+    bottom: 20px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+}
+
+.portpics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 900px;
+    margin-left: 27px;
+}
+
+@media only screen and (max-width: 768px) {
+    .aboutpage {width: 90%; height: 650px; margin-top: 30px; margin-left: 40px;}
+    hr {width: 600px;}
+    h1 {margin-left: 15px;}
+    .nav {margin-right: 15px;}
+    .contactmain {width: 90%; height: 650px; margin-top: 30px; margin-left: 40px;}
+    .input1 {width: 90%;}
+    .input2 {width: 90%;}
+    .input3 {width: 90%;}
+    .portfoliomain {width: 90%; height: 800px; margin-top: 30px; margin-left: 40px;}
+    .portpics {width: 90%; height: 650px; margin-top: 30px; margin-left: 40px;}
+}
+
+@media only screen and (max-width: 640px) {
+    .nav {display: block; width: 100%; padding-left: 35px; padding-bottom: 25px;}
+    h1 {width: 100%;}
+    .aboutpage {display: block; margin-left: 15px;}
+    .topbar {display: block;}
+    .contactmain {margin-left: 15px;}
+    hr {width: 300px;}
+    .portfoliomain {margin-left: 15px; height: 1200px}
+    p {display: block;}
+}
